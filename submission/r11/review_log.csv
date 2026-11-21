@@ -1,0 +1,6 @@
+image,type,verdict,note
+000000000139,instance_merge,confirmed,YOLO có hai box riêng. Mask panoptic dùng cùng một segment cho hai vùng tách biệt ở hai bên ảnh.
+000000001818,bbox_drift,rejected,Mask panoptic tách riêng hai con ngựa vằn, segment đang xét thuộc con bên trái còn box YOLO bám con bên phải.
+000000006012,bbox_drift,confirmed,Box YOLO của chuối bên phải lệch sang trái và xuống dưới, cắt mất phần chuối ở mép phải.
+000000006213,category_swap,confirmed,Vùng khoanh là bồn rửa mặt. YOLO gán đúng sink còn panoptic gán nhầm frisbee.
+000000007784,class_swap,confirmed,Vật trong ảnh là diều. YOLO gán bird, panoptic gán kite.

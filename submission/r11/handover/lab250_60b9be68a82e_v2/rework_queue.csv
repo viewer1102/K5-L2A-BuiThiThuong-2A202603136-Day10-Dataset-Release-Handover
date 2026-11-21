@@ -1,0 +1,8 @@
+image,type,annotator,reviewer,action
+000000000724,duplicate_box,A04,Q02,Khôi phục ảnh hoặc gán lại và kiểm lại
+000000002261,missing_image,A01,Q02,Khôi phục ảnh hoặc gán lại và kiểm lại
+000000006012,bbox_drift,A05,Q03,Khôi phục ảnh hoặc gán lại và kiểm lại
+000000007784,class_swap,A05,Q02,Khôi phục ảnh hoặc gán lại và kiểm lại
+000000017379,duplicate_box,A04,Q03,Khôi phục ảnh hoặc gán lại và kiểm lại
+000000018575,bbox_out_of_bounds,A01,Q03,Khôi phục ảnh hoặc gán lại và kiểm lại
+000000024021,bbox_out_of_bounds,A05,Q03,Khôi phục ảnh hoặc gán lại và kiểm lại

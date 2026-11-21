@@ -1,0 +1,128 @@
+{
+  "candidates": [
+    {
+      "target": "000000000139",
+      "type": "instance_merge",
+      "segment": 2038814,
+      "panoptic_class": "tv",
+      "panoptic_bbox": [
+        7,
+        168,
+        639,
+        288
+      ],
+      "detection": [
+        {
+          "label": "tv",
+          "bbox": [
+            7.0304,
+            167.760078,
+            156.35008,
+            262.630278
+          ]
+        },
+        {
+          "label": "tv",
+          "bbox": [
+            557.20992,
+            209.18985600000002,
+            638.5596800000001,
+            287.91976800000003
+          ]
+        }
+      ]
+    },
+    {
+      "target": "000000001818",
+      "type": "bbox_drift",
+      "segment": 8092282,
+      "panoptic_class": "zebra",
+      "panoptic_bbox": [
+        0,
+        1,
+        638,
+        425
+      ],
+      "detection": [
+        {
+          "label": "zebra",
+          "bbox": [
+            178.04032000000004,
+            1.439899999999966,
+            640.0,
+            425.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "000000006012",
+      "type": "bbox_drift",
+      "segment": 2725787,
+      "panoptic_class": "banana",
+      "panoptic_bbox": [
+        328,
+        25,
+        549,
+        502
+      ],
+      "detection": [
+        {
+          "label": "banana",
+          "bbox": [
+            280.56319999999994,
+            53.70003,
+            501.31327999999996,
+            531.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "000000006213",
+      "type": "class_swap_or_category_swap",
+      "segment": 9155032,
+      "panoptic_class": "frisbee",
+      "panoptic_bbox": [
+        407,
+        253,
+        497,
+        287
+      ],
+      "detection": [
+        {
+          "label": "sink",
+          "bbox": [
+            406.3696,
+            253.31976250000002,
+            496.74976000000004,
+            286.8798875
+          ]
+        }
+      ]
+    },
+    {
+      "target": "000000007784",
+      "type": "class_swap_or_category_swap",
+      "segment": 8881844,
+      "panoptic_class": "kite",
+      "panoptic_bbox": [
+        94,
+        86,
+        334,
+        306
+      ],
+      "detection": [
+        {
+          "label": "bird",
+          "bbox": [
+            93.95999999999998,
+            86.1298125,
+            334.37,
+            306.21993749999996
+          ]
+        }
+      ]
+    }
+  ]
+}
